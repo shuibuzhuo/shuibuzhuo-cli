@@ -1,0 +1,23 @@
+{
+  "name": "@lv/command",
+  "version": "0.0.0",
+  "description": "This is @lv/command package",
+  "author": "zhuotuo <zhuotuo@leagsoft.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/command.test.js"
+  },
+  "type": "module"
+}
