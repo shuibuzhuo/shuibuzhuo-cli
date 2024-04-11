@@ -1,6 +1,6 @@
 {
   "name": "@shuibuzhuo/commit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This is @shuibuzhuo/commit package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
@@ -25,8 +25,8 @@
     "test": "node ./__tests__/commit.test.js"
   },
   "dependencies": {
-    "@shuibuzhuo/command": "0.0.0",
-    "@shuibuzhuo/utils": "0.0.0",
+    "@shuibuzhuo/command": "^0.1.0",
+    "@shuibuzhuo/utils": "^0.1.0",
     "eslint": "8.56.0",
     "simple-git": "3.15.1"
   },

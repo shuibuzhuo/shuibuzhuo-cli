@@ -1,6 +1,6 @@
 {
   "name": "@shuibuzhuo/cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This is @shuibuzhuo/cli package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
@@ -29,7 +29,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@shuibuzhuo/utils": "0.0.0",
+    "@shuibuzhuo/utils": "^0.1.0",
     "chalk": "5.1.0",
     "commander": "9.4.1",
     "dirname-filename-esm": "1.1.1",
