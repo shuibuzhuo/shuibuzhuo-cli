@@ -1,7 +1,7 @@
 {
-  "name": "@lv/command",
+  "name": "@shuibuzhuo/command",
   "version": "0.0.0",
-  "description": "This is @lv/command package",
+  "description": "This is @shuibuzhuo/command package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
   "license": "ISC",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/shuibuzhuo/lv-cli.git"
+    "url": "git@github.com:shuibuzhuo/shuibuzhuo-cli.git"
   },
   "scripts": {
     "test": "node ./__tests__/command.test.js"

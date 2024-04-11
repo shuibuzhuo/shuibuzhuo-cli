@@ -1,7 +1,7 @@
 {
-  "name": "@lv/utils",
+  "name": "@shuibuzhuo/utils",
   "version": "0.0.0",
-  "description": "This is @lv/utils package",
+  "description": "This is @shuibuzhuo/utils package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
   "license": "ISC",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/shuibuzhuo/lv-cli.git"
+    "url": "git@github.com:shuibuzhuo/shuibuzhuo-cli.git"
   },
   "scripts": {
     "test": "node ./__tests__/utils.test.js"

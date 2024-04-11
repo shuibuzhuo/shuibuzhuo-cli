@@ -1,9 +1,9 @@
 'use strict';
-import Command from "@lv/command";
+import Command from "@shuibuzhuo/command";
 import SimpleGit from "simple-git";
-import { log } from '@lv/utils'
+import { log } from '@shuibuzhuo/utils'
 import { ESLint } from 'eslint'
-import { makeInput, makeList } from "@lv/utils/lib/inquirer.js";
+import { makeInput, makeList } from "@shuibuzhuo/utils/lib/inquirer.js";
 
 const COMMIT_CHOICES = [
   { value: 'feat', name: 'feat: 新功能' },
@@ -129,7 +129,7 @@ class CommitCommand extends Command {
         message: '请填写提交信息'
       });
     }
-    const commitMessage = `${type}: ${inputMessage} (by lv-commit)`;
+    const commitMessage = `${type}: ${inputMessage} (by shuibuzhuo-commit)`;
     await this.git.commit(commitMessage);
     log.success("git commit 成功");
   }

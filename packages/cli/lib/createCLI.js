@@ -4,10 +4,10 @@ import semver from "semver";
 import { dirname } from "dirname-filename-esm";
 import fse from "fs-extra";
 import chalk from "chalk";
-import { log } from "@lv/utils";
+import { log } from "@shuibuzhuo/utils";
 
 const __dirname = dirname(import.meta);
-const pkgPath = path.resolve(__dirname, "../package.json");
+const pkgPath = path.resoshuibuzhuoe(__dirname, "../package.json");
 const pkg = fse.readJsonSync(pkgPath);
 
 const LOWEST_NODE_VERSION = "16.0.0";
@@ -17,7 +17,7 @@ function checkNodeVersion() {
   log.verbose("node version", process.version);
   if (!semver.gte(process.version, LOWEST_NODE_VERSION)) {
     throw new Error(
-      chalk.red(`lv-cli 需要安装 ${LOWEST_NODE_VERSION} 以上版本的 Node.js`)
+      chalk.red(`shuibuzhuo-cli 需要安装 ${LOWEST_NODE_VERSION} 以上版本的 Node.js`)
     );
   }
 }

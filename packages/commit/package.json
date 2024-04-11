@@ -1,7 +1,7 @@
 {
-  "name": "@lv/commit",
+  "name": "@shuibuzhuo/commit",
   "version": "0.0.0",
-  "description": "This is @lv/commit package",
+  "description": "This is @shuibuzhuo/commit package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
   "license": "ISC",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/shuibuzhuo/lv-cli.git"
+    "url": "git@github.com:shuibuzhuo/shuibuzhuo-cli.git"
   },
   "scripts": {
     "test": "node ./__tests__/commit.test.js"
   },
   "dependencies": {
-    "@lv/command": "0.0.0",
-    "@lv/utils": "0.0.0",
+    "@shuibuzhuo/command": "0.0.0",
+    "@shuibuzhuo/utils": "0.0.0",
     "eslint": "8.56.0",
     "simple-git": "3.15.1"
   },

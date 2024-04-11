@@ -8,7 +8,7 @@ import entry from "../lib/index.js";
 const __filename = filename(import.meta);
 
 if (importLocal(__filename)) {
-  log.info("cli", "使用本地 lv 版本");
+  log.info("cli", "使用本地 shuibuzhuo 版本");
 } else {
   entry(process.argv.slice(2));
 }

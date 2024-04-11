@@ -1,13 +1,13 @@
 {
-  "name": "@lv/cli",
+  "name": "@shuibuzhuo/cli",
   "version": "0.0.0",
-  "description": "This is @lv/cli package",
+  "description": "This is @shuibuzhuo/cli package",
   "author": "zhuotuo <zhuotuo@leagsoft.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
   "bin": {
-    "lv": "bin/cli.js"
+    "shuibuzhuo": "bin/cli.js"
   },
   "directories": {
     "lib": "lib",
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/shuibuzhuo/lv-cli.git"
+    "url": "git@github.com:shuibuzhuo/shuibuzhuo-cli.git"
   },
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
   },
   "type": "module",
   "dependencies": {
-    "@lv/utils": "0.0.0",
+    "@shuibuzhuo/utils": "0.0.0",
     "chalk": "5.1.0",
     "commander": "9.4.1",
     "dirname-filename-esm": "1.1.1",

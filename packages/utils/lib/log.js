@@ -7,7 +7,7 @@ if (isDebug()) {
   log.level = "info";
 }
 
-log.heading = "lv";
+log.heading = "shuibuzhuo";
 log.addLevel("success", 2000, { fg: "green", bold: true });
 
 export default log;

@@ -1,5 +1,5 @@
 'use strict';
-import createCommitCommand from '@lv/commit'
+import createCommitCommand from '@shuibuzhuo/commit'
 import createCLI from './createCLI.js'
 
 export default function () {
