@@ -1,7 +1,12 @@
 'use strict';
+import createCommitCommand from '@lv/commit'
+import createCLI from './createCLI.js'
 
-module.exports = cli;
-
-function cli() {
-    return "Hello from cli";
+export default function () {
+  console.log('cli running');
+  const program = createCLI()
+  // 注册提交命令
+  createCommitCommand(program)
+  program.parse(process.argv)
 }
+
